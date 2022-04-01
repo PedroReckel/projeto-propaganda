@@ -213,6 +213,10 @@ div.gallery {
       width: 100%;
     }
   }
+
+  main h2 {
+    margin-bottom: 15px;
+  }
   
   .clearfix:after {
     content: "";
