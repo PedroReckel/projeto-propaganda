@@ -19,7 +19,79 @@
         <a href="comprar.html">Compre o Seu</a>
     </nav>
     <main>
-        
+        <h2>Preencha o formulário para fazer seu pedido de compra</h2>
+
+        <div class="container">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Nome</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Sobrenome</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome.">
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label for="lname">Telefone</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="Telefone" placeholder="Seu numero de telefone.">
+                </div>
+              </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="country">País</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="brazil">Brazil</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="australia">Australia</option>
+                  <option value="UK">UK</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label for="country">Estado</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="sao paulo">São Paulo</option>
+                    <option value="espirito santo">Espírito Santo</option>
+                    <option value="rio de janeiro">Rio de Janeiro</option>
+                    <option value="parana">Paraná</option>
+                  </select>
+                </div>
+              </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Assunto</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Escreva algo.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <input type="submit" value="Enviar">
+            </div>
+            </form>
+          </div>
     </main>
 </body>
 <script src="slideShow.js"></script>
